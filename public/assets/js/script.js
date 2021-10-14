@@ -1,3 +1,4 @@
+// navbar sticky is not working properly....
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20) {
@@ -5,8 +6,11 @@ $(document).ready(function(){
         } else {
             $('.navbar').removeClass("sticky");
         }
-    })
+    });
 });
-
-// navbar sticky is not working properly....
+    // toggle menu/navbar script
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    })
 
