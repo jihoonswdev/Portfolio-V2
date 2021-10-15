@@ -298,7 +298,7 @@ section .title::after {
     background: none;
   }
 
-/* skills section */
+/* skills left section */
 
 .skills {
     background: gray;
@@ -360,6 +360,53 @@ section .title::after {
     width: 60%;
 }
 .skills-content .left .mysql::before{
+    width: 60%;
+}
+
+/* skills right section */
+
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: red;
+}
+
+.skills-content .right .problem::before{
+    width: 85%;
+}
+.skills-content .right .logical::before{
+    width: 60%;
+}
+.skills-content .right .comm::before{
+    width: 75%;
+}
+.skills-content .right .teamwork::before{
+    width: 60%;
+}
+.skills-content .right .management::before{
     width: 60%;
 }
 
