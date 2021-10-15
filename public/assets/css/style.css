@@ -328,6 +328,25 @@ section .title::after {
     justify-content: space-between;
 }
 
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: blue;
+}
+
 /* responsive media query start */
 @media (max-width: 1104px) {
   .home .max-width {
