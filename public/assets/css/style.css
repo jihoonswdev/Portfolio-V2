@@ -314,6 +314,20 @@ section .title::after {
     margin-bottom: 10px;
 }
 
+.skills .skills-content .left p{
+    text-align: justify;
+}
+
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* responsive media query start */
 @media (max-width: 1104px) {
   .home .max-width {
