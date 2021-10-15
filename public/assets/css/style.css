@@ -366,7 +366,7 @@ section .title::after {
 /* skills right section */
 
 .skills .skills-content .right .bars{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 .skills .skills-content .right .info{
     display: flex;
@@ -412,18 +412,32 @@ section .title::after {
 
 /* contact section */
 
+.contact {
+    background: #111;
+}
+
 .contact .contact-content .column{
     width: 50%;
 }
 
 .contact .contact-content .text{
-    font-size: 45px;
-    position: flex;
-    text-align: center;
-    margin-left: 600px;
+    font-size: 20px;
+    margin-left: 0px;
     font-weight: 600;
     margin-bottom: 20px;
+    color: white;
 }
+
+.contact .contact-content .left p{
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+
+
 
 /* responsive media query start */
 @media (max-width: 1104px) {
