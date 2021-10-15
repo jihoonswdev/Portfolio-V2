@@ -410,6 +410,10 @@ section .title::after {
     width: 70%;
 }
 
+/* contact section */
+
+
+
 /* responsive media query start */
 @media (max-width: 1104px) {
   .home .max-width {
