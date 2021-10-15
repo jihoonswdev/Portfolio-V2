@@ -306,39 +306,39 @@ section .title::after {
 }
 
 .skills .skills-content .column{
-    width: calc(50% - 30px);
+    width: 45%;
 }
-.skills .skills-content .left .text{
+/* .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-}
+} */
 
-.skills .skills-content .left p{
+/* .skills .skills-content .left p{
     text-align: justify;
-}
+} */
 
-.skills .skills-content .right .bars{
+.skills .skills-content .left .bars{
     margin-bottom: 15px;
 }
-.skills .skills-content .right .info{
+.skills .skills-content .left .info{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
 
-.skills .skills-content .right span{
+.skills .skills-content .left span{
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .right .line{
+.skills .skills-content .left .line{
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
-.skills .skills-content .right .line::before{
+.skills .skills-content .left .line::before{
     content: "";
     position: absolute;
     height: 100%;
@@ -347,19 +347,19 @@ section .title::after {
     background: blue;
 }
 
-.skills-content .right .html::before{
+.skills-content .left .html::before{
     width: 85%;
 }
-.skills-content .right .css::before{
+.skills-content .left .css::before{
     width: 60%;
 }
-.skills-content .right .js::before{
+.skills-content .left .js::before{
     width: 75%;
 }
-.skills-content .right .nodejs::before{
+.skills-content .left .nodejs::before{
     width: 60%;
 }
-.skills-content .right .mysql::before{
+.skills-content .left .mysql::before{
     width: 60%;
 }
 
