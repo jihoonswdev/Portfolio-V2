@@ -357,10 +357,10 @@ section .title::after {
     width: 75%;
 }
 .skills-content .left .nodejs::before{
-    width: 60%;
+    width: 85%;
 }
 .skills-content .left .mysql::before{
-    width: 60%;
+    width: 80%;
 }
 
 /* skills right section */
@@ -395,19 +395,19 @@ section .title::after {
 }
 
 .skills-content .right .problem::before{
-    width: 85%;
+    width: 80%;
 }
 .skills-content .right .logical::before{
-    width: 60%;
+    width: 80%;
 }
 .skills-content .right .comm::before{
     width: 75%;
 }
 .skills-content .right .teamwork::before{
-    width: 60%;
+    width: 100%;
 }
 .skills-content .right .management::before{
-    width: 60%;
+    width: 70%;
 }
 
 /* responsive media query start */
