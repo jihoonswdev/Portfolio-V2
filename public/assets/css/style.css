@@ -412,7 +412,18 @@ section .title::after {
 
 /* contact section */
 
+.contact .contact-content .column{
+    width: 50%;
+}
 
+.contact .contact-content .text{
+    font-size: 45px;
+    position: flex;
+    text-align: center;
+    margin-left: 600px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
