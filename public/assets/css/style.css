@@ -8,7 +8,7 @@
 }
 
 .max-width {
-  max-width: 1300px;
+  max-width: 1400px;
   padding: 0 80px;
   margin: auto;
 }
@@ -149,13 +149,13 @@ section {
   padding: 50px 0;
 }
 
-.about,
-.projects {
+.about {
   font-family: "Poppins", "sans-serif";
   display: flex;
   /* background: url("../images/gray.png"); */
   height: 100vh;
   color: black;
+  background: gray;
   min-height: 500px;
   font-family: sans-serif;
 }
@@ -286,6 +286,82 @@ section .title::after {
   height: 4vh;
   width: 10vh;
   font-size: 1.5vh;
+}
+
+/* skills section */
+
+/* .skills .title::after{
+    content: "what i know";
+} */
+
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+    text-align: justify;
+}
+/* .skills .skills-content .left a{
+    display: inline-block;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+    color: blue;
+    background: none;
+} */
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: blue;
+}
+.skills-content .right .html::before{
+    width: 85%;
+}
+.skills-content .right .css::before{
+    width: 60%;
+}
+.skills-content .right .js::before{
+    width: 75%;
+}
+.skills-content .right .php::before{
+    width: 60%;
+}
+.skills-content .right .mysql::before{
+    width: 60%;
 }
 
 /* responsive media query start */
