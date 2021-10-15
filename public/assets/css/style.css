@@ -300,8 +300,19 @@ section .title::after {
 
 /* skills section */
 
+.skills {
+    background: gray;
+    height: 100%;
+}
 
-
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
