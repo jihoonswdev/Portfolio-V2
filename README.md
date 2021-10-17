@@ -22,6 +22,8 @@
 ## Usage:
 * Will be updating soon
 
+* Deployed: (https://jihoonswdev.github.io/Portfolio-V2/)
+
 ## License:
 * This project is licensed under `MIT`
 
