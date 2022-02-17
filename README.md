@@ -22,7 +22,7 @@
 ## Usage:
 * Will be updating soon
 
-* Deployed: (https://jihoonswdev.github.io/Portfolio-V2/)
+* Deployed: ()
 
 ## License:
 * This project is licensed under `MIT`
